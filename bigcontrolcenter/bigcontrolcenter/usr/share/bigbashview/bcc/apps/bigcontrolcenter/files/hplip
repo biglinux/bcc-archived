@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=bigcontrolcenter
+
+NAME=$"Impressoras HP"
+COMMENT=$"Verificar o status, nível de tinta e manutenção."
+ICON="icons/icon_print-HP.png"
+CATEGORY="Hardware"

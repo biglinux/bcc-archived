@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=bigcontrolcenter
+
+NAME=$"Carteira de senhas do KDE"
+CATEGORY="Privacy"
+EXEC="kcmshell5 kwalletconfig5"
+COMMENT=""

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=bigcontrolcenter
+
+CATEGORY="Hardware"
+ICON="icons/preferences-desktop-touchscreen.png"
+# EXEC="kcmshell5 touchpad"
