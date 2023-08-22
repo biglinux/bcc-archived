@@ -13,8 +13,10 @@
 #Translation
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=big-store
+export HOME_FOLDER="$HOME/.bigstore"
+export TMP_FOLDER="/tmp/bigstore-$USER"
 
-TMP_FOLDER="/tmp/bigstore"
+#TMP_FOLDER="/tmp/bigstore"
 
 rm -f ${TMP_FOLDER}/aurbuild.html
 
