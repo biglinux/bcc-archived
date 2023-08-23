@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#grep "|$1|" ~/.bigstore/flatpak.cache | cut -f7 -d"|"
+grep -i "$1|" ~/.bigstore/flatpak.cache | cut -f6 -d"|"
